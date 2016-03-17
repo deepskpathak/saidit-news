@@ -1,9 +1,13 @@
 {
-  "name": "starter-node-angular",
+  "name": "saidit-news",
+  "version": "1.0.0",
+  "description": "A MEAN application to share news and links.",
   "main": "server.js",
   "dependencies": {
-    "express" : "~4.5.1",
-	"mongoose" : "~3.8.0",
+    "express" : "*",
+	"mongoose" : "*",
+    "shelljs" : "*",
+    "bower" : "*",
 	"body-parser" : "~1.4.2",
 	"method-override" : "~2.0.2"
   }
